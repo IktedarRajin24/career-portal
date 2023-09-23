@@ -1,0 +1,13 @@
+.details-btn{
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    
+}
+
+.border-gradient{
+    border: 1px solid var(--Linear, #7E90FE);
+
+}
+
+.details-btn:hover{
+    background: var(--Linear, linear-gradient(90deg, #9873FF 0%, #7E90FE 100%));
+}

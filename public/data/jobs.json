@@ -1,0 +1,151 @@
+[
+    {
+        "id": 1,
+        "name": "Software Engineer(Java)",
+        "company": "Google LLC",
+        "type": "Remote",
+        "status": "Full-time",
+        "icon": "assets/images/google.png",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100K - 150K",
+        "contact": {
+            "phone": "123-456-7890",
+            "email": "jobs@google.com",
+            "address": "123 Main Street, Dhaka, Bangladesh"
+        },
+        "job_description": "We are seeking a highly skilled Software Engineer with expertise in Java to join our remote team at Google. As a Software Engineer, you will be responsible for developing and maintaining high-performance Java applications, collaborating with cross-functional teams, and ensuring the scalability and reliability of our software systems.",
+        "job_responsibilities": [
+            "Design, develop, and maintain Java applications.",
+            "Collaborate with product managers and other teams to define software requirements.",
+            "Optimize code for performance and scalability.",
+            "Debug and resolve software defects and issues.",
+            "Participate in code reviews and provide constructive feedback."
+        ],
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+        "experience_requirements": "2+ years of experience in Java software development"
+    },
+    {
+        "id": 2,
+        "name": "Software Engineer(Flutter)",
+        "company": "Tesla",
+        "type": "On-site",
+        "status": "Full-time",
+        "icon": "assets/images/tesla.png",
+        "location": "Las Vegas, USA",
+        "salary": "100K - 150K",
+        "contact": {
+            "phone": "555-123-4567",
+            "email": "jobs@tesla.com",
+            "address": "456 Electric Avenue, Las Vegas, USA"
+        },
+        "job_description": "Join our on-site team at Tesla as a Software Engineer specializing in Flutter. In this role, you will contribute to the development of cutting-edge software solutions for Tesla's innovative projects. You will work closely with a talented engineering team to build and maintain Flutter-based applications.",
+        "job_responsibilities": [
+            "Develop and maintain Flutter applications for Tesla's projects.",
+            "Collaborate with UX/UI designers to create responsive and user-friendly interfaces.",
+            "Participate in the full software development lifecycle, from design to deployment.",
+            "Identify and address performance and compatibility issues.",
+            "Stay updated on Flutter and mobile development trends."
+        ],
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+        "experience_requirements": "3+ years of experience in mobile app development with Flutter"
+    },
+    {
+        "id": 3,
+        "name": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "status": "Full-time",
+        "icon": "assets/images/google.png",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100K - 150K",
+        "contact": {
+            "phone": "123-456-7890",
+            "email": "jobs@google.com",
+            "address": "123 Main Street, Dhaka, Bangladesh"
+        },
+        "job_description": "Google is looking for a Technical Database Engineer to join our remote team in Dhaka, Bangladesh. As a Technical Database Engineer, you will be responsible for designing, implementing, and maintaining database solutions that support Google's products and services.",
+        "job_responsibilities": [
+            "Design and implement database schemas, tables, and indexes.",
+            "Optimize database performance and ensure data integrity.",
+            "Collaborate with software engineers to integrate database solutions into applications.",
+            "Troubleshoot and resolve database-related issues.",
+            "Stay updated on database technologies and best practices."
+        ],
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
+        "experience_requirements": "3+ years of experience in database engineering"
+    },
+    {
+        "id": 4,
+        "name": "Product Manager",
+        "company": "Netflix",
+        "type": "On-site",
+        "status": "Full-time",
+        "icon": "assets/images/netflix.png",
+        "location": "Ottawa, Canada",
+        "salary": "100K - 150K",
+        "contact": {
+            "phone": "555-987-6543",
+            "email": "jobs@netflix.com",
+            "address": "789 Streaming Avenue, Ottawa, Canada"
+        },
+        "job_description": "Netflix is seeking a talented Product Manager to join our team in Ottawa, Canada. As a Product Manager, you will play a crucial role in defining and executing product strategies for our streaming platform, contributing to the success of Netflix's content delivery.",
+        "job_responsibilities": [
+            "Define and prioritize product features and enhancements.",
+            "Collaborate with cross-functional teams including engineering, design, and content teams.",
+            "Analyze user data and market trends to inform product decisions.",
+            "Create and maintain product roadmaps and release plans.",
+            "Monitor product performance and gather user feedback."
+        ],
+        "educational_requirements": "Bachelor's degree in Business, Computer Science, or a related field",
+        "experience_requirements": "5+ years of product management experience in tech or entertainment industry"
+    },
+    {
+        "id": 5,
+        "name": "Senior Product Designer",
+        "company": "Netflix",
+        "type": "Remote",
+        "status": "Full-time",
+        "icon": "assets/images/netflix.png",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100K - 150K",
+        "contact": {
+            "phone": "123-555-7890",
+            "email": "jobs@netflix.com",
+            "address": "123 Streaming Street, Dhaka, Bangladesh"
+        },
+        "job_description": "Netflix is looking for a Senior Product Designer to join our remote team in Dhaka, Bangladesh. As a Senior Product Designer, you will be responsible for creating user-centered design solutions that enhance the Netflix streaming experience.",
+        "job_responsibilities": [
+            "Lead the design of user interfaces for web and mobile applications.",
+            "Collaborate with product managers and engineers to define design requirements.",
+            "Conduct user research and usability testing to inform design decisions.",
+            "Create wireframes, prototypes, and design specifications.",
+            "Iterate on designs based on feedback and user testing results."
+        ],
+        "educational_requirements": "Bachelor's or Master's degree in Design, HCI, or a related field",
+        "experience_requirements": "5+ years of experience in product design for digital platforms"
+    },
+    {
+        "id": 6,
+        "name": "Software Engineer Trainee",
+        "company": "Tesla",
+        "type": "On-site",
+        "status": "Full-time",
+        "icon": "assets/images/tesla.png",
+        "location": "Las Vegas, USA",
+        "salary": "10K - 15K",
+        "contact": {
+            "phone": "555-987-6543",
+            "email": "jobs@tesla.com",
+            "address": "456 Electric Avenue, Las Vegas, USA"
+        },
+        "job_description": "Tesla is offering a Software Engineer Trainee program at our Las Vegas location. As a Software Engineer Trainee, you will have the opportunity to learn and work alongside experienced engineers on innovative projects. This program is designed for recent graduates or individuals looking to start their career in software development.",
+        "job_responsibilities": [
+            "Participate in training and mentorship programs to learn software development best practices.",
+            "Contribute to coding, testing, and debugging tasks under the guidance of senior engineers.",
+            "Work collaboratively in a team environment on real-world projects.",
+            "Learn and apply coding standards and development methodologies."
+        ],
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+        "experience_requirements": "Entry-level position, no prior experience required"
+    }
+]
