@@ -1,0 +1,19 @@
+.header{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+
+.apply-btn{
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+}
+
+.heading{
+    line-height: 70px;
+}
+
+.dream-job{
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
