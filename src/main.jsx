@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import PageOne from './Pages/PageOne/PageOne';
+import PageTwo from './Pages/PageTwo/PageTwo';
 
 const router = createBrowserRouter([
   {
@@ -17,9 +18,18 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <PageOne></PageOne>,
-        loader: ()=> fetch('data/jobs.json')
+        loader: ()=> fetch('https://bdjobs24.free.beeceptor.com/jobs')
+      },
+      {
+        path: '/job-details/:jobId',
+        element: <PageTwo></PageTwo>,
+        loader: ({params}) => fetch(`https://bdjobs24.free.beeceptor.com/jobs/job-details/${params.jobId}`)
       },
     ]
+  },
+  {
+    path: '*',
+    element: <h1>404 not found. </h1>
   }
 ])
 

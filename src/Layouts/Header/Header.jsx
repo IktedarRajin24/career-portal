@@ -13,7 +13,7 @@ const Header = () => {
                     <p>BdJobs24</p>
                 </div>
                 <div className='flex justify-between w-2/5'>
-                    <Link to='/home'>Home</Link>
+                    <Link to='/'>Home</Link>
                     <Link>Statistics</Link>
                     <Link>Applied Jobs</Link>
                     <Link>Blog</Link>
@@ -40,9 +40,9 @@ const Header = () => {
                     </div>
 
                 </div>: 
-                path === '#'? <h1 className='text-2xl font-bold w-40 mx-auto'>Job Details</h1>: 
-                path === '#'? <h1 className='text-2xl font-bold w-40 mx-auto'>Applied jobs</h1>: 
-                path === '#'? <h1 className='text-2xl font-bold w-40 mx-auto'>Blogs</h1>: 
+                path.includes('/job-details') ? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Job Details</h1>: 
+                path === '#'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Applied jobs</h1>: 
+                path === '#'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Blogs</h1>: 
                 <h1>404 not found</h1>
             }
         </div>

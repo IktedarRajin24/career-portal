@@ -5,6 +5,10 @@
 
 .border-gradient{
     border: 1px solid var(--Linear, #7E90FE);
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
