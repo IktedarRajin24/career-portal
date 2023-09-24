@@ -9,6 +9,8 @@ import {
 import Home from './Pages/Home/Home';
 import PageOne from './Pages/PageOne/PageOne';
 import PageTwo from './Pages/PageTwo/PageTwo';
+import PageThree from './Pages/PageThree/PageThree';
+import { appliedJobs } from './Utilities/appliedJobs';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,11 @@ const router = createBrowserRouter([
         element: <PageTwo></PageTwo>,
         loader: ({params}) => fetch(`https://bdjobs24.free.beeceptor.com/jobs/job-details/${params.jobId}`)
       },
+      {
+        path: '/applied-jobs',
+        element: <PageThree></PageThree>,
+        loader: () => appliedJobs()
+      }
     ]
   },
   {

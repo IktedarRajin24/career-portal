@@ -3,7 +3,7 @@
 import React from 'react';
 import './Job.css'
 import { useNavigate } from 'react-router-dom';
-import { addToDb } from '../../Utities/fakeDB';
+import { addToDb } from '../../Utilities/fakeDB';
 
 const Job = ({job}) => {
     const navigate = useNavigate() 

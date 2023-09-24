@@ -2,7 +2,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './PageTwo.css'
-import { addToDb, getAppliedJobs } from '../../Utities/fakeDB';
+import { addToDb, getAppliedJobs } from '../../Utilities/fakeDB';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
