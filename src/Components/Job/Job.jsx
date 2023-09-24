@@ -3,6 +3,7 @@
 import React from 'react';
 import './Job.css'
 import { useNavigate } from 'react-router-dom';
+import { addToDb } from '../../Utities/fakeDB';
 
 const Job = ({job}) => {
     const navigate = useNavigate() 
@@ -10,6 +11,7 @@ const Job = ({job}) => {
     const handleDetails = (id) =>{
         navigate(`/job-details/${id}`)
     }
+    
     return (
         <div className='job border-2 border-slate-100 rounded-lg p-8'>
             <img className='h-6 mb-4' src={icon} alt="company-logo" />

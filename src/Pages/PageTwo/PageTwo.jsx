@@ -2,10 +2,25 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './PageTwo.css'
+import { addToDb, getAppliedJobs } from '../../Utities/fakeDB';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
 
 const PageTwo = () => {
     const job = useLoaderData();
-    const {job_description, job_responsibilities, educational_requirements, experience_requirements, salary, name, contact} = job[0];
+    const {job_description, job_responsibilities, educational_requirements, experience_requirements, salary, name, contact, id} = job[0];
+    const notify = () => toast("Job Already Added!");
+    const handleApplyButton = (id, job) =>{
+        const added = getAppliedJobs();
+        if(JSON.stringify(added[id]) === JSON.stringify(job)){
+            notify()
+        } else{
+            addToDb(id, job)
+        }
+    }
     
     return (
         <div className='job-info-details w-3/5 mx-auto py-20 flex justify-between'>
@@ -37,8 +52,9 @@ const PageTwo = () => {
                         <span className='font-bold text-slate-600'>Address: </span>{contact.address}
                     </p>
                 </div>
-                <button className='apply-now-btn w-full mx-auto px-3 py-3 rounded-md text-white font-bold'>Apply Now</button>
+                <button onClick={()=>{handleApplyButton(id, job[0])}} className='apply-now-btn w-full mx-auto px-3 py-3 rounded-md text-white font-bold'>Apply Now</button>
             </div>
+            <ToastContainer/>
         </div>
     );
 };
