@@ -17,6 +17,7 @@ const Jobs = () => {
 
         setHidden(false)
     }
+    
 
     return (
         <div className='jobs-section px-5 py-40 flex flex-col justify-center items-center'>
@@ -27,9 +28,9 @@ const Jobs = () => {
                 Explore thousands of job opportunities with all the information you need. Its your future
             </p>
             <div className='grid grid-cols-2 gap-8 px-5 py-8 w-3/5 mx-auto'>
-                {
-                    allJobs.map(job => <Job key={job.id} job={job}/>)
-                }
+                {/* {
+                    allJobs && allJobs.map(job => <Job key={job.id} job={job}/>)
+                } */}
             </div>
             {
                 hidden && <button onClick={handleShowAllJobs} className='all-jobs-btn w-1/12 mx-auto px-3 py-2 rounded-md text-white font-bold'>
