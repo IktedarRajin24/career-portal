@@ -11,6 +11,7 @@ import PageOne from './Pages/PageOne/PageOne';
 import PageTwo from './Pages/PageTwo/PageTwo';
 import PageThree from './Pages/PageThree/PageThree';
 import { appliedJobs } from './Utilities/appliedJobs';
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -31,13 +32,14 @@ const router = createBrowserRouter([
         path: '/applied-jobs',
         element: <PageThree></PageThree>,
         loader: () => appliedJobs()
+      },
+      {
+        path: '*',
+        element: <ErrorPage/>
       }
     ]
   },
-  {
-    path: '*',
-    element: <h1>404 not found. </h1>
-  }
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -43,7 +43,7 @@ const Header = () => {
                 path.includes('/job-details') ? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Job Details</h1>: 
                 path === '/applied-jobs'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Applied jobs</h1>: 
                 path === '#'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Blogs</h1>: 
-                <h1>404 not found</h1>
+                <h1 className='text-2xl font-bold w-full flex justify-center py-32'>404 not found</h1>
             }
         </div>
     );
