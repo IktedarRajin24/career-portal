@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import './Header.css'
+import { Link, useLocation, NavLink } from 'react-router-dom';
+import './Header.css';
+import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
     const location = useLocation();
@@ -13,10 +14,10 @@ const Header = () => {
                     <p>BdJobs24</p>
                 </div>
                 <div className='flex justify-between w-2/5'>
-                    <Link to='/'>Home</Link>
-                    <Link to='/statistics'>Statistics</Link>
-                    <Link to='/applied-jobs'>Applied Jobs</Link>
-                    <Link to='/blog'>Blog</Link>
+                    <ActiveLink to='/'>Home</ActiveLink>
+                    <ActiveLink to='/statistics'>Statistics</ActiveLink>
+                    <ActiveLink to='/applied-jobs'>Applied Jobs</ActiveLink>
+                    <ActiveLink to='/blog'>Blog</ActiveLink>
 
                 </div>
                 <button className='apply-btn px-4 py-3 rounded-lg text-white font-bold'>Start Applying</button>
