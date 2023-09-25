@@ -16,7 +16,7 @@ const Header = () => {
                     <Link to='/'>Home</Link>
                     <Link to='/statistics'>Statistics</Link>
                     <Link to='/applied-jobs'>Applied Jobs</Link>
-                    <Link>Blog</Link>
+                    <Link to='/blog'>Blog</Link>
 
                 </div>
                 <button className='apply-btn px-4 py-3 rounded-lg text-white font-bold'>Start Applying</button>
@@ -42,7 +42,7 @@ const Header = () => {
                 </div>: 
                 path.includes('/job-details') ? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Job Details</h1>: 
                 path === '/applied-jobs'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Applied jobs</h1>: 
-                path === '#'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Blogs</h1>: 
+                path === '/blog'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Blogs</h1>: 
                 path === '/statistics'? <h1 className='text-2xl font-bold w-full flex justify-center py-32'>Assignment Marks</h1>:
                 <h1 className='text-2xl font-bold w-full flex justify-center py-32'>404 not found</h1>
             }

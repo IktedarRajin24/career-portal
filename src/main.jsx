@@ -13,6 +13,7 @@ import PageThree from './Pages/PageThree/PageThree';
 import { appliedJobs } from './Utilities/appliedJobs';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Statistics from './Pages/Statistics/Statistics';
+import Blog from './Pages/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
       },
       {
         path: '*',
