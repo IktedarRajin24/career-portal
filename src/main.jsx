@@ -12,6 +12,7 @@ import PageTwo from './Pages/PageTwo/PageTwo';
 import PageThree from './Pages/PageThree/PageThree';
 import { appliedJobs } from './Utilities/appliedJobs';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
+import Statistics from './Pages/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path: '/applied-jobs',
         element: <PageThree></PageThree>,
         loader: () => appliedJobs()
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
       },
       {
         path: '*',
