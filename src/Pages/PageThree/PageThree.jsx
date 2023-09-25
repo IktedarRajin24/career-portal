@@ -25,10 +25,10 @@ const PageThree = () => {
     return (
         <div className='applied-jobs w-3/5 mx-auto py-20'>
             <div className='w-full flex justify-end'>
-                <select onChange={setFilterValue} className='bg-gray-200 w-2/12 p-2 text-sm mb-10' name="filter" id="filter">
-                    <option value="">Filter By</option>
-                    <option value="On-site">On-site</option>
-                    <option value="Remote">Remote</option>
+                <select onChange={setFilterValue} className='bg-gray-200 w-2/12 p-2 text-sm text-slate-500 mb-10' name="filter" id="filter">
+                    <option value="">All</option>
+                    <option value="On-site">Filter By: On-site</option>
+                    <option value="Remote">Filter By: Remote</option>
 
                 </select>
 

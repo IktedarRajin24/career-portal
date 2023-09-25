@@ -49,7 +49,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className='w-11/12 mx-auto pt-10 text-xs text-slate-400 flex justify-between'>
+            <div className='md:w-3/5 w-11/12 mx-auto pt-10 text-xs text-slate-400 flex justify-between'>
                 <p>©2023 <span className='font-semibold'>BdJobs24</span>. All Rights Reserved</p>
                 <p>Powered By <span className='font-semibold'>Rushdi</span></p>
             </div>

@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="logo text-2xl ps-5 font-bold">
                     <p>BdJobs24</p>
                 </div>
-                <div className={`flex md:flex-row md:items-center items-start md:gap-0 gap-3 md:bg-transparent bg-purple-50 md:p-0 px-5 pt-2 pb-10 md:w-9/12 w-full flex-col justify-between absolute md:static ${open? 'top-16':'-top-96'}`}>
+                <div className={`flex md:flex-row md:items-center items-start md:gap-0 gap-3 md:bg-transparent bg-purple-50 text-slate-500 font-semibold md:p-0 px-5 pt-2 pb-10 md:w-9/12 w-full flex-col justify-between absolute md:static ${open? 'top-16':'-top-96'}`}>
                     <ActiveLink to='/'>Home</ActiveLink>
                     <ActiveLink to='/statistics'>Statistics</ActiveLink>
                     <ActiveLink to='/applied-jobs'>Applied Jobs</ActiveLink>
